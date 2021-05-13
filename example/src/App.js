@@ -1,13 +1,16 @@
 import React from 'react';
-import { ApplicationBar, BibleDropDown } from 'autographa-mt';
+import { ApplicationBar, BibleDropDown, CreateProject } from 'autographa-mt';
 
-import 'autographa-mt/dist/index.css';
+import 'react-select/dist/react-select.css';
+import 'react-virtualized/styles.css';
+import 'react-virtualized-select/styles.css';
 
 const App = () => {
   return (
     <div>
       <ApplicationBar />
       <BibleDropDown />
+      <CreateProject />
     </div>
   );
 };
